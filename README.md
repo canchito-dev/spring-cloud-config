@@ -1,4 +1,4 @@
-# test
+# Spring Boot Config: Server and client-side support for externalized configuration
 Want to learn how to manage your application configuration in a distributed environment? Learn how to do it with Spring Cloud Config.
 
 ## Contribute Code
