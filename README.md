@@ -541,7 +541,6 @@ spring:
     config:
       uri: http://localhost:8888
       fail-fast: true 
-server.port=8888
 ```
 
 In is important to notice, that we have specified the application name and the URI of the configuration server. Without them, the client application does not know how to communicate with the server, and the server does not know which properties files to retrieve.
