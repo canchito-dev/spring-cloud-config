@@ -29,7 +29,7 @@ In this article, we’re going to introduce **Spring Cloud Config**, by first co
 
 **Spring Cloud Config** provides server and client-side support for externalized configuration in a distributed system. With the **Spring Cloud Config Server** you have a central place to manage external properties for applications across all environments.
 
-![CANCHITO-DEV: Spring Boot Config - Server and client-side support for externalized configuration](http://www.canchito-dev.com/public/blog/wp-content/uploads/2019/07/Spring-Boot-Config-Server-and-client-side-support-for-externalized-configuration.png) CANCHITO-DEV: Spring Boot Config - Server and client-side support for externalized configuration
+![CANCHITO-DEV: Spring Boot Config - Server and client-side support for externalized configuration](http://www.canchito-dev.com/public/blog/wp-content/uploads/2019/07/Spring-Boot-Config-Server-and-client-side-support-for-externalized-configuration.png)
 
 **Spring Cloud Config Server** is a centralized service that via HTTP provides all the applications configuration (name-value pairs or equivalent YAML content). The server is embeddable in a **Spring Boot** application, by using the `@EnableConfigServer` annotation.
 
@@ -40,7 +40,7 @@ A **Spring Boot** application properly configured, can take immediate advantage 
 ## Explaining the demo
 The below image explains the application architecture that we will be creating in this article.
 
-![CANCHITO-DEV: Spring Boot Config - Server and client demo](http://www.canchito-dev.com/public/blog/wp-content/uploads/2019/07/Spring-Boot-Config-Server-and-client-demo.png) CANCHITO-DEV: Spring Boot Config - Server and client demo
+![CANCHITO-DEV: Spring Boot Config - Server and client demo](http://www.canchito-dev.com/public/blog/wp-content/uploads/2019/07/Spring-Boot-Config-Server-and-client-demo.png)
 
 1.  **Demo App** requests the properties from the Spring Cloud Config Server.
 2.  **Spring Cloud Config Server** access the configuration found in the file-based **Git repository**.
